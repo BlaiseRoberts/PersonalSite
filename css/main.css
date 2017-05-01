@@ -1,6 +1,6 @@
 .darken-image {
-	-webkit-filter: brightness(50%);
-    filter: brightness(50%);
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .card-image img {
