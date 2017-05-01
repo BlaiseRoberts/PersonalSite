@@ -1,9 +1,9 @@
-.darken-image {
+.gray-image {
 	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
-.card-image img {
+.darken-image {
     -webkit-filter: brightness(70%);
     filter: brightness(70%);
 }
@@ -20,6 +20,7 @@
 
 .skill{
 	height: 3em;
+	overflow: hidden;
 }
 
 .no-margin{
