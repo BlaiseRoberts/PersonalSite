@@ -1,0 +1,28 @@
+.darken-image {
+	-webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
+
+.card-image img {
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+.button-row {
+	margin-top: 1em;
+	text-align: right;
+}
+
+.profile {
+	padding-top: 5em;
+	margin-bottom: 0;
+}
+
+.skill{
+	height: 3em;
+}
+
+.no-margin{
+	margin: 0;
+	padding-top: 1em;
+}
