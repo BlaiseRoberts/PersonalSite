@@ -24,6 +24,10 @@
 	overflow: hidden;
 }
 
+.skill-row{
+	margin-bottom: .1em;
+}
+
 .no-margin{
 	margin: 0;
 	padding-top: 1em;
