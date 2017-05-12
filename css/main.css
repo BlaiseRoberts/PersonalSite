@@ -1,3 +1,20 @@
+a, p, td {
+	font-family: 'Lato', sans-serif;	
+}
+
+h1, h2, h3 {
+	font-family: 'Bungee', cursive;	
+}
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+.bungee{
+	font-family: 'Bungee', cursive;
+}
+
+
 .gray-image {
 	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);
