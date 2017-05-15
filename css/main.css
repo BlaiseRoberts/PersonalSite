@@ -25,6 +25,16 @@ h1, h2, h3 {
     filter: brightness(70%);
 }
 
+.darker-image {
+    -webkit-filter: brightness(25%);
+    filter: brightness(25%);
+}
+
+.boxed {
+	padding: 1.5em;
+	border: solid 5px #64ffda;
+}
+
 .button-row {
 	margin-top: 1em;
 	text-align: right;
@@ -55,5 +65,10 @@ h1, h2, h3 {
 }
 
 .desk-img {
-      height: 40em;
-    }
+	height: 40em;
+}
+
+.music-container {
+	height: 50em;
+}
+

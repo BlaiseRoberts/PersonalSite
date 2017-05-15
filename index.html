@@ -15,14 +15,16 @@
 		<div id="home" class="nav-wrapper indigo scrollspy">
 		  <a href="#" data-activates="mobile-demo" class="button-collapse indigo"><i class="material-icons">menu</i></a>
 		  <ul class="row hide-on-med-and-down">
-		    <li class="col s4"><a class="bungee center" href="#about-me">About Me</a></li>
-		    <li class="col s4"><a class="bungee center" href="#skills">Skills</a></li>
-		    <li class="col s4"><a class="bungee center" href="#projects">Projects</a></li>
+		    <li class="col s3"><a class="bungee center" href="#about-me">About Me</a></li>
+		    <li class="col s3"><a class="bungee center" href="#skills">Skills</a></li>
+		    <li class="col s3"><a class="bungee center" href="#projects">Projects</a></li>
+		    <li class="col s3"><a class="bungee center" href="#music">Music</a></li>
 		  </ul>
 		  <ul class="side-nav" id="mobile-demo">
-		    <li class="col s4"><a onclick="$('.button-collapse').sideNav('hide');" class="center" href="#about-me">About Me</a></li>
-		    <li class="col s4"><a onclick="$('.button-collapse').sideNav('hide');" class="center" href="#skills">Skills</a></li>
-		    <li class="col s4"><a onclick="$('.button-collapse').sideNav('hide');" class="center" href="#projects">Projects</a></li>
+		    <li class="col s3"><a onclick="$('.button-collapse').sideNav('hide');" class="center" href="#about-me">About Me</a></li>
+		    <li class="col s3"><a onclick="$('.button-collapse').sideNav('hide');" class="center" href="#skills">Skills</a></li>
+		    <li class="col s3"><a onclick="$('.button-collapse').sideNav('hide');" class="center" href="#projects">Projects</a></li>
+		    <li class="col s3"><a onclick="$('.button-collapse').sideNav('hide');" class="center" href="#music">Music</a></li>
 		  </ul>		  
 		</div>
 	</nav>
@@ -53,6 +55,7 @@
 
     			<p class="col s8 offset-s2 l10 offset-l2" style="text-align: justify">As a former teacher and composer, I've always loved working as a team, being creative, and solving problems. After spending time learning HTML, CSS, and JavaScript I found another channel to practice what I love: creating software. Now, I get to discover ways to create these powerful tools to help others realize their passions. As a developer I get to work with a team, learn how to solve problems every day, and create applications to continue to sharpen my skills.</p>
 
+
     		</div>
     		<div class="row center">
 
@@ -72,7 +75,7 @@
 			</div>
 		</div>
 		<div class="col l5 s10 offset-s1">
-			<h3 class="teal-text">Personal Info</h3>
+			<h3 class="indigo-text">Personal Info</h3>
 			<table class="center bordered">
 				<tr>
 					<td class="center">Name:</td>
@@ -92,10 +95,10 @@
 				</tr>
 			</table>
 			<div class="row container button-row">
-		      <a target="_blank" href="https://github.com/BlaiseRoberts" class="btn-floating waves-effect waves-purple"><i class="fi-social-github"></i></a>
-		      <a target="_blank" href="https://www.linkedin.com/in/blaise-roberts-504121140/" class="btn-floating waves-effect waves-purple"><i class="fi-social-linkedin"></i></a>
-		      <a target="_blank" href="https://www.facebook.com/blaise.roberts.9" class="btn-floating waves-effect waves-purple"><i class="fi-social-facebook"></i></a>
-		      <a target="_blank" href="https://www.instagram.com/blaiserlaser1/" class="btn-floating waves-effect waves-purple"><i class="fi-social-instagram"></i></a>
+		      <a target="_blank" href="https://github.com/BlaiseRoberts" class="indigo btn-floating waves-effect waves-purple"><i class="fi-social-github"></i></a>
+		      <a target="_blank" href="https://www.linkedin.com/in/blaise-roberts-504121140/" class="indigo btn-floating waves-effect waves-purple"><i class="fi-social-linkedin"></i></a>
+		      <a target="_blank" href="https://www.facebook.com/blaise.roberts.9" class="indigo btn-floating waves-effect waves-purple"><i class="fi-social-facebook"></i></a>
+		      <a target="_blank" href="https://www.instagram.com/blaiserlaser1/" class="indigo btn-floating waves-effect waves-purple"><i class="fi-social-instagram"></i></a>
 		    </div>
 		</div>
     </div>
@@ -139,9 +142,8 @@
     </div>
       <div id="projects" class="row light-blue lighten-5 scrollspy" style="margin-bottom: 0">
       	<div class="row container" style="padding-top: .75em">
-      		<div class="col s10 offset-s1 indigo card-panel z-depth-5" style="padding-top: 2em; padding-bottom: 2em">
-      			<h2 class="white-text" style="margin-left: 1em"><i class="fi-crown"style="margin-right: .5em"></i>Projects</h2>
-      		</div>
+      		<h2 class="indigo-text right-align" style="margin-left: 1em"><i class="fi-crown"style="margin-right: .5em"></i>Projects</h2>
+      	<hr>
       	</div>
       		<div class="row container">
       			<div class="col l4 s10 offset-s1">
@@ -194,14 +196,95 @@
 				</div>
 			</div>
       </div>
+    <div id="music" class="parallax-container music-container scrollspy">
+      <div class="parallax">
+      	<img class="darker-image" src="images/midi-controller.jpg">
+      </div>
+      <div class="row">
+      	<div class="col s10 offset-s1 l8 offset-l2">
+      		<h1 class="boxed center" style="color: #64ffda">Music</h1>
+      		<ul class="collapsible popout" data-collapsible="accordion">
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">library_music</i>Final Fantasy for Front Ensemble
+		      <span class="right">
+		      	<audio controls style="vertical-align: middle">
+				  <source src="sound/FF-Hebron2011.m4a" type="audio/aac">
+				Your browser does not support the audio element.
+				</audio>
+		      </span>
+		      </div>
+		      <div class="collapsible-body white">
+		      	<span>This is an arrangement for marimba and vibraphone created for the Hebron HS front ensemble in 2011 that features a few different tunes from the Final Fantasy Series.  This arrangment was quite challenging and was made to push some of the more advanced kids in the program.</span>
+		      	<hr>
+		      	
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">library_music</i>Pokémon Battle for Front Ensemble
+		      <span class="right">
+		      	<audio controls style="vertical-align: middle">
+				  <source src="sound/PokemonBattle.m4a" type="audio/aac">
+				Your browser does not support the audio element.
+				</audio>
+		      </span>
+		      </div>
+		      <div class="collapsible-body white">
+		      	<span>This is an arrangement for marimba and vibraphone created for the Fossil Ridge HS front ensemble in 2012 that features the battle theme from Pokémon.  This arrangment was a two mallet speed exercise with emphasis on chromatic passages.</span>
+		      	<hr>
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">library_music</i>Wake for HS Marching Band
+		      <span class="right">
+		      	<audio controls style="vertical-align: middle">
+				  <source src="sound/WakeFinal.m4a" type="audio/aac">
+				Your browser does not support the audio element.
+				</audio>
+		      </span>
+		      </div>
+		      <div class="collapsible-body white">
+		      	<span>This is an arrangement/composition for high school marching band.  This show was titled 'Wake' and took the audience on a journey through dealing with the grief of a death.  The journey moves from a place of darkness into light and features quotes from many differnt sources spanning from 16th century counterpoint to modern orchestral selections.  The music for the battery percussion was written by Ben Moore.</span>
+		      	<hr>
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">library_music</i>Wintersprints for HS Marching Band
+		      <span class="right">
+		      	<audio controls style="vertical-align: middle">
+				  <source src="sound/Wintersprints.m4a" type="audio/aac">
+				Your browser does not support the audio element.
+				</audio>
+		      </span>
+		      </div>
+		      <div class="collapsible-body white">
+		      	<span>This is an arrangement/composition for the last movement in a high school marching band show.  This show was titled 'aleaffalls' and focused on the transition from Autumn into Winter.  This movement is the beginning of winter and features selecctions from Vivaldi's string quartet as well as a concert band piece by Richard Saucedo called 'Windsprints'  The music for the battery percussion was written by Ben Moore.</span>
+		      	<hr>
+		      </div>
+		    </li>
+		</ul>
+      	</div>
+      </div>
+	</div>
+
 	<div class="fixed-action-btn">
 	    <a href="#home" class="btn-floating btn-large teal accent-3 waves-effect waves-purple">
 	      <i class="large material-icons">navigation</i>
 	    </a>
     </div>
 	<footer class="page-footer indigo">
+		<div class="container">
+		<div class="row">
+			<p class="flow-text white-text" style="margin: 0; margin-bottom: .25em">Contact Me @</p>
+		      <a target="_blank" href="https://github.com/BlaiseRoberts" class=" btn-floating waves-effect waves-light"><i class="fi-social-github"></i></a>
+		      <a style="margin-left: .5em" target="_blank" href="https://www.linkedin.com/in/blaise-roberts-504121140/" class="btn-floating waves-effect waves-light"><i class="fi-social-linkedin"></i></a>
+		      <a style="margin-left: .5em" target="_blank" href="https://www.facebook.com/blaise.roberts.9" class="btn-floating waves-effect waves-light"><i class="fi-social-facebook"></i></a>
+		      <a style="margin-left: .5em" target="_blank" href="https://www.instagram.com/blaiserlaser1/" class="btn-floating waves-effect waves-light"><i class="fi-social-instagram"></i></a>
+			<p class=" white-text">Email: <span style="margin-left: .25em">BlaiseRRoberts@gmail.com<span></p>
+		    </div>
+
+		</div>
           <div class="footer-copyright">
-            <div class="container">
+            <div class="container right-align">
             © 2017 Blaise Roberts
             </div>
           </div>
